@@ -12,7 +12,7 @@ This repo does not contain product documentation, algorithm descriptions, or bra
 
 Clone it adjacent to this repo:
 ```
-C:\Users\HoldenComeau\CLAUDE\Docs\RaceProof\
+C:\Users\HoldenComeau\CLAUDE\RaceProof\
 ├── raceproof-marketing/    ← you are here
 ├── raceproof-docs/         ← product knowledge base
 ├── raceproof-api/          ← backend
