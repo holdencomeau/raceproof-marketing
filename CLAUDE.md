@@ -6,6 +6,25 @@ Marketing assets, strategy, and campaign content for Raceproof. This repo holds 
 
 Raceproof is a cycling performance analytics platform built on a proprietary physiological framework called the Power Threshold Array (PTA). The platform's core value proposition is a unified measurement system across seven energy systems — filling an integration gap that existing tools (TrainingPeaks, Strava, intervals.icu) don't address. The slogan is **"There's more to you."**
 
+## Repository structure
+
+```
+raceproof-marketing/
+├── CLAUDE.md              Session briefing (this file)
+├── MARKETING_STATE.md     Canonical marketing state map — READ FIRST every session
+├── editorial/             Torque pipeline state, article diagnoses, unpublished material
+│   └── TORQUE_PIPELINE.md
+├── channels/              Per-channel state and production recipes
+│   ├── EMAIL_KLAVIYO.md
+│   ├── SOCIAL.md
+│   └── DISCORD.md
+├── commercial/            GTM hypotheses, BD outreach state, positioning constants
+│   └── GTM_NOTES.md
+└── sessions/              Append-only session summaries (SESSION-YYYY-MM-DD-NN.md)
+```
+
+**Session startup order:** (1) `MARKETING_STATE.md` here, (2) `raceproof-docs/CANONICAL_STATE.md` for product truth, (3) the channel or editorial doc relevant to the task, (4) the brand/voice doc for the content type. Update `MARKETING_STATE.md` and append a session summary at the end of any session that changes marketing state.
+
 ## Product context lives in raceproof-docs
 
 This repo does not contain product documentation, algorithm descriptions, or brand specifications. All of that lives in the `raceproof-docs` repo. **Read raceproof-docs before writing anything.**
@@ -32,7 +51,7 @@ C:\Users\HoldenComeau\CLAUDE\RaceProof\
 | Describing Loom | `loom/LOOM_VARIABLE_LOCKDOWN.md`, `knowledge/product/LOOM_REDESIGN.md` |
 | BD conversations, partner decks | `knowledge/commercial/ALGORITHM_REFERENCE.md` (BD-safe, no IP) |
 | Competitive positioning | `knowledge/commercial/COMPETITIVE_MODEL_RESEARCH.md` |
-| Wordmark / logo usage | `brand/BRAND_MARK_GUIDE.md`, `brand/Brand Mark/` (exported assets) |
+| Wordmark / logo usage | `brand/Brand Mark/BRAND_MARK_GUIDE.md`, `brand/Brand Mark/` (exported assets) |
 | Visual design (posters, ads, social graphics) | `brand/VISUAL_DESIGN_PROCESS.md` |
 | Trademark claims | `legal/TRADEMARK_FIRST_USE.md` |
 | What we can't reveal | `legal/TRADE_SECRET_INVENTORY.md` |
@@ -90,6 +109,17 @@ Competitive claims about other products (TrainingPeaks, Strava, intervals.icu, W
 
 The standard: **could this sentence survive a public challenge from the company named in it?**
 
+### Writing rules (operational, all content)
+
+- Never use em dashes. Replace with colons, periods, commas, or restructuring.
+- Longer, fluid sentences as the primary vehicle; short sentences for reinforcement only.
+- "And the effect..." device bridges data to meaning.
+- Specific numbers throughout. No generic CTAs.
+- "Raceproof" lowercase p in prose; "RaceProof" only for the entity RaceProof LLC.
+- Banned words: "fingerprint," "Effort Signature," "PT-A."
+- A seat never "sits/sat/rests/perches." A seat is a value; a threshold falls at or lives at a duration.
+- Emails: first person from Holden, no "we," underlined text links not buttons, sign-off "Holden" with no title.
+
 ### Voice
 
 - Confident, not aggressive. Raceproof doesn't need to tear others down.
@@ -114,7 +144,7 @@ Marketing can describe **what** the algorithms do and **why** they matter. Marke
 
 ## Workflow
 
-Strategy and scoping happen in the main Chat session (the same one that manages all Raceproof work). Execution happens via Claude Code sessions initialized in this repo.
+Strategy and scoping happen in the main Chat session (the same one that manages all Raceproof work). Execution happens via Claude Code sessions initialized in this repo. Marketing and editorial output files and session summaries are committed to this repo, never to `raceproof-docs`. Torque article HTML lives in `raceproof-torque/articles/`.
 
 Code sessions should:
 1. Read `CANONICAL_STATE.md` from `raceproof-docs` at session start
