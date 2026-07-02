@@ -21,7 +21,7 @@
 | Date | Article / campaign | Channels | Notes |
 |---|---|---|---|
 | 2026-06-12 | "Your FTP Is a Seat" | LinkedIn, Instagram, Strava, Discord | Two-beat LinkedIn strategy: bare analogy hook first ("Setting your FTP at 95% of your best 20 minute power is sort of like setting your max heart rate at 220 minus your age."), full article post as beat two. 6-slide IG carousel from four app screenshots. |
-| 2026-07-02 | "The Number You Can't Name" | **Not recorded** | Confirm with Holden whether a distribution pass happened before drafting one. |
+| 2026-07-02 | "What's Your FTP in Minutes?" (retitled from "The Number You Can't Name" same day) | Raceproof IG, founder IG, founder LinkedIn | **First video-first rollout** (recipe: `channels/VIDEO.md`). V1 "Unit Swap" Reel on Raceproof IG; V4 "Confession" Reel on founder IG with collab invite to @raceproof; V4 native video on founder LinkedIn, article link in first comment. Posting order: LinkedIn -> founder IG -> brand IG (spaced). Pending from this pass: Strava long-form, Discord, links.html. |
 
 ## Asset production recipes (proven in-session)
 
