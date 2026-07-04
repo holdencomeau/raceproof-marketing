@@ -3,7 +3,7 @@
 **Status:** CANONICAL
 **Purpose:** A future Claude (or human) opens this file first to learn the current state of all Raceproof marketing operations. It mirrors the pattern of `raceproof-docs/CANONICAL_STATE.md`: one block per area, naming the canonical document or system for that area. When something changes, this file is updated in the same session. When this file disagrees with another marketing doc, this file is correct and the other doc must be updated.
 
-**Last reviewed:** 2026-07-02. Repo bootstrapped as the marketing documentation and context engine. Directory structure created (`editorial/`, `channels/`, `commercial/`, `sessions/`), state compiled from CANONICAL_STATE.md (2026-07-02 review), TASK_BOARD.md, project memory, and session history through 2026-07-02.
+**Last reviewed:** 2026-07-04. Launch waitlist live (see below); previously 2026-07-02: repo bootstrapped as the marketing documentation and context engine. Directory structure created (`editorial/`, `channels/`, `commercial/`, `sessions/`), state compiled from CANONICAL_STATE.md (2026-07-02 review), TASK_BOARD.md, project memory, and session history through 2026-07-02.
 
 **Product state is not documented here.** For what has shipped, what's in beta, and what the algorithms do, read `raceproof-docs/CANONICAL_STATE.md`. This file covers only the marketing operation: audience, editorial, channels, and commercial narrative.
 
@@ -13,9 +13,9 @@
 
 | Fact | Value | As of |
 |---|---|---|
-| Beta status | OPEN, invite-gated via `raceproof.app/apply` | 2026-06-15 |
+| Beta status | CLOSED (2026-07-02); `raceproof.app/apply` is now the LAUNCH WAITLIST page | 2026-07-04 |
 | Beta users | 25 | 2026-06-30 (founder-stated; supersedes the 7-account figure in older CANONICAL_STATE blocks) |
-| Signup path | Single route: `/beta-apply` (form at `raceproof.app/apply`). The old `/beta-signup` waitlist route returns 410 Gone; waitlist forms removed from the site. | 2026-06-10 |
+| Signup path | Launch waitlist: form at `raceproof.app/apply` -> Pages Function -> key-gated API `POST /waitlist` -> `waitlist_signups` table (source of truth) -> Klaviyo "Launch Waitlist" (`VDX6D4`). Beta routes `/beta-apply` + `/beta-signup` return 410. All marketing primary CTAs route to the waitlist; links.html leads with a First-access card. | 2026-07-04 |
 | Community | Raceproof Discord server, live, repurposed from Half Wheel Coaching 2026-06-11 | 2026-06-12 |
 
 ---
